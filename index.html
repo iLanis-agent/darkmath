@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Darkmath - film developing without the wet-floor arithmetic</title>
+<style>
+:root{--bg:#0e0e12;--card:#17171d;--ink:#e9e9ef;--mut:#9d9dad;--amber:#e8b34b;--line:#2a2a33}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:17px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;padding:40px 20px}
+main{max-width:760px;margin:0 auto}
+h1{font-size:44px;letter-spacing:-.5px}h1 span{color:var(--amber)}
+p.lede{color:var(--mut);font-size:19px;margin:18px 0 26px}
+a.btn{display:inline-block;background:var(--amber);color:#171104;font-weight:700;padding:13px 26px;border-radius:10px;text-decoration:none;font-size:18px}
+ul{margin:34px 0;list-style:none;padding:0}
+li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px}
+li b{color:var(--amber)}
+small{display:block;color:var(--mut);margin-top:36px;font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<h1>Dark<span>math</span></h1>
+<p class="lede">The tank is loaded, the developer is mixed, and now you're doing 1+9 of 580 ml in your head while the thermometer says 22 degrees, not 20. Darkmath does the wet-floor arithmetic: exact dilutions, tank volumes, the published temperature chart, and a clock-time plan for the whole run.</p>
+<a class="btn" href="app.html">Mix my chemistry</a>
+<ul>
+<li><b>Exact dilutions</b> - stock and water for any A+B ratio at the volume your tank actually needs.</li>
+<li><b>Tank volumes</b> - per-reel capacities for 35mm and 120, with the honest advice to measure your own tank once.</li>
+<li><b>Temperature truth</b> - the published Ilford time/temperature chart, interpolated properly. 22 degrees is not a guess, it is 0.8x.</li>
+<li><b>Push and pull</b> - labeled rules of thumb per stop, because the chart won't tell you those are folklore.</li>
+<li><b>Fix and wash right</b> - twice the clearing time (published rule) and the Ilford archival wash that saves litres of water.</li>
+<li><b>A timeline</b> - from "developer in" to "hang to dry" in real clock times.</li>
+</ul>
+<small>Runs entirely in your browser. Tank capacities, the clearing-time fixer rule and the wash sequence are commonly published darkroom values; temperature compensation interpolates Ilford's published chart. Push/pull multipliers are rules of thumb - your film and developer have their own data sheets.</small>
+</main>
+</body>
+</html>
